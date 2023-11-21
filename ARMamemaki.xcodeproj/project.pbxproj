@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E42A5A72B0C65BD005B0FCC /* oni.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5E42A5A62B0C65BD005B0FCC /* oni.usdz */; };
+		5E42A5A92B0C65CB005B0FCC /* daizu3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5E42A5A82B0C65CB005B0FCC /* daizu3.usdz */; };
+		5E42A5AB2B0C65E2005B0FCC /* mamebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E42A5AA2B0C65E2005B0FCC /* mamebox.png */; };
 		5E6BA08A27A105EF0038408E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BA08927A105EF0038408E /* AppDelegate.swift */; };
 		5E6BA08C27A105EF0038408E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BA08B27A105EF0038408E /* ViewController.swift */; };
 		5E6BA08E27A105EF0038408E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BA08D27A105EF0038408E /* Experience.rcproject */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E42A5A62B0C65BD005B0FCC /* oni.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = oni.usdz; sourceTree = "<group>"; };
+		5E42A5A82B0C65CB005B0FCC /* daizu3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = daizu3.usdz; sourceTree = "<group>"; };
+		5E42A5AA2B0C65E2005B0FCC /* mamebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mamebox.png; sourceTree = "<group>"; };
 		5E6BA08627A105EF0038408E /* ARMamemaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMamemaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6BA08927A105EF0038408E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E6BA08B27A105EF0038408E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E42A5A52B0C65AB005B0FCC /* source */ = {
+			isa = PBXGroup;
+			children = (
+				5E42A5AA2B0C65E2005B0FCC /* mamebox.png */,
+				5E42A5A82B0C65CB005B0FCC /* daizu3.usdz */,
+				5E42A5A62B0C65BD005B0FCC /* oni.usdz */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		5E6BA07D27A105EF0038408E = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +114,7 @@
 		5E6BA08827A105EF0038408E /* ARMamemaki */ = {
 			isa = PBXGroup;
 			children = (
+				5E42A5A52B0C65AB005B0FCC /* source */,
 				5E6BA08927A105EF0038408E /* AppDelegate.swift */,
 				5E6BA08B27A105EF0038408E /* ViewController.swift */,
 				5E6BA08D27A105EF0038408E /* Experience.rcproject */,
@@ -230,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6BA09627A105F00038408E /* LaunchScreen.storyboard in Resources */,
+				5E42A5AB2B0C65E2005B0FCC /* mamebox.png in Resources */,
 				5E6BA09327A105F00038408E /* Assets.xcassets in Resources */,
+				5E42A5A72B0C65BD005B0FCC /* oni.usdz in Resources */,
+				5E42A5A92B0C65CB005B0FCC /* daizu3.usdz in Resources */,
 				5E6BA09127A105EF0038408E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
